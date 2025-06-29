@@ -11,7 +11,7 @@
   transition: 0.3s ease all;
 }
 * a:visited {
-  color: #555555;
+  color: #333333;
 }
 * img {
   width: 100%;
@@ -19,39 +19,40 @@
 }
 
 body {
+  color: #222222;
   background-color: #ffffff;
   font-family: "NATS", sans-serif;
-  transition: background-color 0.5s ease;
+  transition: background 0.5s ease;
 }
 body.bg-contents1 {
-  background-color: #e9f1f9;
+  background: linear-gradient(90deg, #f1f1f1, #3769cd 70%, #f1f1f1 71%, #f1f1f1 100%);
 }
 body.bg-contents2 {
-  background-color: #ffd9ac;
+  background: linear-gradient(90deg, #f1f1f1, #ff7b26 70%, #f1f1f1 71%, #f1f1f1 100%);
 }
 body.bg-contents3 {
-  background-color: #ebffa6;
+  background: linear-gradient(90deg, #f1f1f1, #49c8f7 70%, #f1f1f1 71%, #f1f1f1 100%);
 }
 body.bg-contents4 {
-  background-color: #e9eef0;
+  background: linear-gradient(90deg, #f1f1f1, #1e9d5a 70%, #f1f1f1 71%, #f1f1f1 100%);
 }
 body.bg-contents5 {
-  background-color: #66fffa;
+  background: linear-gradient(90deg, #f1f1f1, #02a69f 70%, #f1f1f1 71%, #f1f1f1 100%);
 }
 body.bg-contents6 {
-  background-color: #e6f1ff;
+  background: linear-gradient(90deg, #f1f1f1, #418dff 70%, #f1f1f1 71%, #f1f1f1 100%);
 }
 body.bg-contents7 {
-  background-color: #fffb8c;
+  background: linear-gradient(90deg, #f1f1f1, #a96c35 70%, #f1f1f1 71%, #f1f1f1 100%);
 }
 body.bg-contents8 {
-  background-color: #ffbf95;
+  background: linear-gradient(90deg, #f1f1f1, #ff7b26 70%, #f1f1f1 71%, #f1f1f1 100%);
 }
 body.bg-contents9 {
-  background-color: #fff580;
+  background: linear-gradient(90deg, #f1f1f1, #ffdf39 70%, #f1f1f1 71%, #f1f1f1 100%);
 }
 body.bg-contents10 {
-  background-color: #e9f1f9;
+  background: linear-gradient(90deg, #f1f1f1, #2d79b5 70%, #f1f1f1 71%, #f1f1f1 100%);
 }
 body .wrap {
   width: 100%;
@@ -59,7 +60,7 @@ body .wrap {
   display: flex;
 }
 body .wrap header {
-  width: calc(65% - 287px);
+  width: calc(70% - 287px);
   padding: 0 40px;
   position: fixed;
   left: 0;
@@ -74,11 +75,11 @@ body .wrap header h1 {
   margin: 40px auto 56px;
   font-size: 72px;
   line-height: 88px;
-  color: #396C97;
+  color: #222222;
 }
 body .wrap header img {
   display: block;
-  width: 90%;
+  width: 85%;
   height: auto;
   margin: 0 auto;
   transition: opacity 0.4s ease-in-out;
@@ -90,7 +91,7 @@ body .wrap header img {
 body .wrap nav {
   width: calc(35% - 207px);
   position: fixed;
-  left: calc(65% + 207px);
+  left: calc(70% + 207px);
   top: 0;
   display: flex;
   justify-content: center;
@@ -118,7 +119,7 @@ body .wrap nav ul li.sub-title {
   font-size: 28px;
 }
 body .wrap nav ul li a {
-  color: #555555;
+  color: #aaaaaa;
   line-height: 1;
   display: inline-block;
 }
@@ -142,12 +143,12 @@ body .wrap nav ul li a:hover {
 body .wrap main {
   width: 366px;
   position: relative;
-  left: calc(65% - 207px);
+  left: calc(70% - 207px);
   top: 0;
   padding: 0 24px;
   background-color: #ffffff;
-  border-left: 3px solid #396C97;
-  border-right: 3px solid #396C97;
+  border-left: 3px solid #222222;
+  border-right: 3px solid #222222;
 }
 body .wrap main section {
   width: 100%;
@@ -159,15 +160,17 @@ body .wrap main section h2 {
   margin: 0 0 16px;
 }
 body .wrap main section h2.title {
-  color: #396C97;
+  color: #222222;
 }
 body .wrap main section img {
-  margin: 0 0 16px;
+  margin: 0;
+  display: block;
 }
 body .wrap main section .text {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   line-height: 1.5em;
+  margin: 8px auto 0;
 }
 body .wrap main section .work {
   width: 100%;
@@ -179,6 +182,30 @@ body .wrap main section .work h3 {
   font-weight: 600;
   line-height: 1.5em;
   margin: 0 0 32px;
+}
+body .wrap main section .work .tip {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+}
+body .wrap main section .work .tip span {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+body .wrap main section .work .tip .design {
+  color: #0B6236;
+  border: 2px solid #0B6236;
+}
+body .wrap main section .work .tip .markup {
+  color: #6C2596;
+  border: 2px solid #6C2596;
+}
+body .wrap main section .work .tip .banner {
+  margin: 24px 0 0;
 }
 body .wrap main section .work a {
   display: flex;
@@ -194,8 +221,8 @@ body .wrap main section .work a {
   line-height: 1.5em;
 }
 body .wrap main section .work a:hover {
-  background-color: #396C97;
-  border: 1px solid #396C97;
+  background-color: #222222;
+  border: 1px solid #222222;
   color: #ffffff;
 }
 body .wrap main section .work a:hover .arrow {
@@ -227,7 +254,7 @@ body .wrap main section .work a .arrow::before {
 }
 body .wrap main footer {
   width: calc(100% + 48px);
-  background-color: #396C97;
+  background-color: #222222;
   display: flex;
   justify-content: center;
   align-items: center;
