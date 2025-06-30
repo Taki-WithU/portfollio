@@ -120,9 +120,9 @@ body .wrap header {
 body .wrap header h1 {
   display: block;
   width: 100%;
-  margin: 40px auto 56px;
-  font-size: 72px;
-  line-height: 88px;
+  margin: 24px auto 40px;
+  font-size: 64px;
+  line-height: 72px;
   color: #222222;
 }
 body .wrap header img {
@@ -162,14 +162,14 @@ body .wrap nav {
   }
 }
 body .wrap nav.highlight a {
-  color: #111111;
+  color: #222222;
 }
 body .wrap nav.fade-out {
   opacity: 0;
 }
 body .wrap nav ul {
   width: 100%;
-  margin: 64px 0 0 32px;
+  margin: 32px 0 0 32px;
 }
 body .wrap nav ul li {
   line-height: 1;
@@ -188,7 +188,7 @@ body .wrap nav ul li a {
   display: inline-block;
 }
 body .wrap nav ul li a.active-link {
-  color: #111111;
+  color: #222222;
   position: relative;
 }
 body .wrap nav ul li a.active-link::after {
@@ -199,10 +199,10 @@ body .wrap nav ul li a.active-link::after {
   right: 2px;
   height: 2px;
   border-radius: 2px;
-  background-color: #111111;
+  background-color: #222222;
 }
 body .wrap nav ul li a:hover {
-  color: #111111;
+  color: #222222;
 }
 body .wrap main {
   width: 366px;
@@ -234,6 +234,9 @@ body .wrap main section {
   width: 100%;
   margin: 40px auto;
 }
+body .wrap main section#title {
+  margin: 24px 0 40px;
+}
 body .wrap main section h2 {
   font-size: 48px;
   line-height: 1.5em;
@@ -241,6 +244,7 @@ body .wrap main section h2 {
 }
 body .wrap main section h2.title {
   color: #222222;
+  line-height: 56px;
 }
 body .wrap main section img {
   margin: 0;
@@ -307,7 +311,7 @@ body .wrap main section .work a {
   width: calc(100% - 128px);
   margin: 32px auto 0;
   padding: 20px 24px;
-  border: 1px solid #111111;
+  border: 1px solid #222222;
   color: #333333;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
