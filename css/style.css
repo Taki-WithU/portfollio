@@ -398,6 +398,14 @@ body .wrap main footer {
   left: -24px;
   margin: 80px 0 0 0;
 }
+body .wrap main footer _::-webkit-full-page-media, body .wrap main footer _:future, body .wrap main footer :root .text {
+  margin: 120px 0 0 0;
+}
+@media screen and (max-width: 670px) {
+  body .wrap main footer _::-webkit-full-page-media, body .wrap main footer _:future, body .wrap main footer :root .text {
+    margin: 80px 0 0 0;
+  }
+}
 body .wrap main footer p {
   font-size: 16px;
   color: #ffffff;
