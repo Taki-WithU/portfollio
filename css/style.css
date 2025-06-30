@@ -396,13 +396,10 @@ body .wrap main footer {
   align-items: center;
   position: relative;
   left: -24px;
-  margin: 80px 0 0 0;
-}
-body .wrap main footer _::-webkit-full-page-media, body .wrap main footer _:future, body .wrap main footer :root .text {
   margin: 240px 0 0 0;
 }
 @media screen and (max-width: 670px) {
-  body .wrap main footer _::-webkit-full-page-media, body .wrap main footer _:future, body .wrap main footer :root .text {
+  body .wrap main footer {
     margin: 80px 0 0 0;
   }
 }
